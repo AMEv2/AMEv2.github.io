@@ -1,8 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: AME Induction Annealer
+description: DIY Annealer Control Board Firmware
 theme: just-the-docs
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
 
-url: https://just-the-docs.github.io
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
+
+url: https://amev2.github.io/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Source Code: https://github.com/amev2/amev2
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
