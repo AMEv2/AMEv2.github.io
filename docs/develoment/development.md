@@ -8,4 +8,4 @@ permalink: /docs/development
 
 # Development
 
-Pin Definitions of ESP32-S3 and the connectors on the AME Annealer Control Board.
+Development and design of the AMEv2 firmware.

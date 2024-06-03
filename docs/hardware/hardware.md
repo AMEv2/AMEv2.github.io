@@ -6,6 +6,6 @@ has_children: true
 permalink: /docs/hardware
 ---
 
-# Harware
+# Hardware
 
 Hardware description of the AME board.

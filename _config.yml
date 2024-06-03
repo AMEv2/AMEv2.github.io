@@ -10,7 +10,7 @@ favicon_ico: "/assets/images/favicon.ico"
 url: https://amev2.github.io/
 
 aux_links:
-  Source Code: https://github.com/amev2/amev2
+  Source Code: https://github.com/AMEv2/AMEv2-Firmware
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true

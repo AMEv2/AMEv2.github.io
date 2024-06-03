@@ -9,7 +9,7 @@ nav_order: 1
 Hardware description of the AME board.
 
 ## 3D Model
-A Step model of the AME Board is avaialble for [download](../../assets/step/AME_V2.0.0.step)
+A Step model of the AME Board is available for [download](../../assets/step/AME_V2.0.0.step)
 
 ## Features
 **ESP32-S3**
@@ -49,7 +49,7 @@ The AME board has 2 stepper drivers. The FLT and DIR pins are shared by the two 
 
 **Dual Fan Controls**
 
-2x 4-way standard PC fan connectors for 2 fans, with low side control. Tach feedback and speed control pins are NOT wired to the ESP32-S3.
+2x 4-way standard PC fan connectors for 2 fans, with low side control. Tach feedback and speed control pins are NOT wired to the ESP32-S3. Fans are connected in parallel.
 
 **Drop Solenoid Control**
 
@@ -61,7 +61,7 @@ Output and input for an optical case detector circuit. Custom PCB will be availa
 
 **Support for SPI or I2C Displays**
 
-SPI with LCD Reset as well as LCD A0 pins broken out to JST-XH connector for connecting to LCD display. The MISO and MOSI pins can be used as I2C for connecting to an I2C LCD as well. Default LCD is 128x64 SSD1306.
+SPI with LCD Reset as well as LCD A0 pins broken out to JST-XH connector for connecting to LCD display. The MISO and MOSI pins can be used as I2C for connecting to an I2C LCD as well. Default LCD is 128x64 SSD1306 I2C.
 
 **Rotary Encoder Input**
 
@@ -69,7 +69,7 @@ Input for rotary encoder (A, B and SW)
 
 **Dedicated Start/stop button**
 
-Input for dedicated start stop button.
+Input for dedicated start/stop button.
 
 **Homing Switch**
 
@@ -81,4 +81,4 @@ All Connectors are pluggable type connectors.
  - JST-XH for most of them. 
  - XT-60 Female for the DC-input. 12V - 60V, max 30A
  - XT-60 Male for ZVS Induction board
- - Standard 4 pin Fan connectors
+ - Standard 4 pin Fan connectors for fans and pump

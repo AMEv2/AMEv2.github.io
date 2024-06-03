@@ -7,7 +7,7 @@ nav_order: 1
 
 # Developing Firmware for AME
 {: .no_toc }
-AME Firmware is developed using Espressif's ESP-IDF V5.x.x
+AME Firmware is developed using Espressif's ESP-IDF V5.2.x
 
 # Table of contents
 {: .no_toc .text-delta }
