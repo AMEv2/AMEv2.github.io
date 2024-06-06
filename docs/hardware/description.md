@@ -14,13 +14,14 @@ A Step model of the AME Board is available for [download](../../assets/step/AME_
 ## Features
 **ESP32-S3**
 
-The ESP32-S3 is the **AME** boards main controller. This allows for Bluetooth control, Over-the-Air updates, Wi-fi connection and more.
+The ESP32-S3 is the **AME** board's main controller. This allows for Bluetooth control, Over-the-Air updates, Wi-fi connection and more.
 
 **Built-in 60W 12V power supply**
 
 The AME board has a built-in 60W 12V output power supply. Supported input voltage 12V - 60V.
 
 **Built-in high current switch for the ZVS induction annealer board**
+
 There is a on board low-side high current switch with a failsafe control circuit. To turn on the ZVS board, the fail-safe control circuit has to be pulsed at a rate of 100Hz or more. If the control output is held either high or low, the ZVS board is turned off.
 
 **Built-in low voltage control of the ZVS induction annealer board**

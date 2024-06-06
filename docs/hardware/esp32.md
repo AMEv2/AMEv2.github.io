@@ -11,7 +11,7 @@ nav_order: 2
 
 | GPIO# | Funtion                            | Mode                 |
 | :---: | :--------------------------------- | :--------------------|
-| 0     | Boot0                              | Mode                 |
+| 0     | Boot0                              |                      |
 | 1     | Stepper Driver 2 RST               | Output               |
 | 2     | Stepper Driver 2 STEP              | Output               |
 | 3     | LCD Backlight                      | Output               |
@@ -20,18 +20,18 @@ nav_order: 2
 | 6     | SPI MOSI / I2C SDA                 |
 | 7     | SPI CLK                            |
 | 8     | Rotary Encoder A                   | Input                |
-| 9     | Current ADC                        | Analog               |
-| 10    | VIN ADC                            | Analog               |
+| 9     | ADC Current                        | Analog Input         |
+| 10    | ADC VIN                            | Analog Input         |
 | 11    | Buzzer                             | Output (Active High) |
-| 12    | Current Fault                      | Input                |
-| 13    | ZVS High Current On/Off            | Output               |
+| 12    | Current Fault                      | Input (Active Low)   |
+| 13    | ZVS High Current On/Off            | Output (Pulsed 100Hz+) |
 | 14    | WDT Kick                           | Output               |
 | 15    | SPI CS                             | Output               |
 | 16    | LCD A0                             | Output               |
 | 17    | LCD RST                            | Output               |
-| 18    | Rotary encoder B                   | Input                |
-| 19    | USB D-                             |
-| 20    | USB D+                             |
+| 18    | Rotary Encoder B                   | Input                |
+| 19    | USB D-                             | USB                  |
+| 20    | USB D+                             | USB                  |
 | 21    | Cooling Pump Tach                  | Input                |
 | 35    | Drop Solenoid                      | Output (Active High) |
 | 36    | Case Detector IR Out               | Output (Active High) |
@@ -43,5 +43,8 @@ nav_order: 2
 | 42    | Stepper Drivers DIR                | Output               |
 | 43    | Case Height Adjustment Home Switch | Input (Active Low)   |
 | 44    | Start/Stop Button                  | Input (Active Low)   |
+| 46    | ZVS Control (Low Current)          | Output (Active High) |
+| 47    | Pump On/Off                        | Output (Active High) |
+| 48    | Fans On/Off                        | Output (Active High) |
 
 </div>
