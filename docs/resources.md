@@ -3,6 +3,7 @@ layout: default
 title: Resources
 nav_order: 3
 has_children: false
+mathjax: true
 permalink: /docs/resources
 ---
 
@@ -19,8 +20,10 @@ Links to useful information regarding DIY annealers.
 
 # Anneal Time Calculator
 
-Formula as demonstrated by Youtuber [Reese on the Range](https://www.youtube.com/@reeseontherange) to calculate the time required to anneal brass given a temperature.
-$$ t2=t1 * exp(\frac{-E}{B}*(\frac{1}{T1} - \frac{1}{T2})) $$
+Formula as demonstrated by Youtuber [Reese on the Range](https://www.youtube.com/@reeseontherange) to calculate the time required to anneal brass given a temperature.<br>
+$$t2=t1 * exp(\frac{-E}{B}*(\frac{1}{T1} - \frac{1}{T2}))$$
+<br>
+
 where:
 
 `B` = 1.38065x10^-23 (Boltzmann constant)<br>
