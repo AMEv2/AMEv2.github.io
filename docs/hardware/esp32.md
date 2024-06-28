@@ -25,7 +25,7 @@ nav_order: 2
 | 11    | Buzzer                             | Output (Active High) |
 | 12    | Current Fault                      | Input (Active Low)   |
 | 13    | ZVS High Current On/Off            | Output (Pulsed 100Hz+) |
-| 14    | WDT Kick                           | Output               |
+| 14    | Unused                             |                |
 | 15    | SPI CS                             | Output               |
 | 16    | LCD A0                             | Output               |
 | 17    | LCD RST                            | Output               |
